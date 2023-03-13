@@ -24,6 +24,10 @@ To use the PDOSessionHandler session handler it is necessary to use the session_
 ```sh
 <?php
 
+require 'vendor/autoload.php';
+
+use Micheledef\PdoSessionHandler\PDOSessionHandler;
+
 $username = "username";
 $password = "password";
 $databasename = "databasename";
