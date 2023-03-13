@@ -2,6 +2,7 @@
     "name": "micheledef/pdo-session-handler",
     "description": "Store data in a database using PDO and the SessionHandlerInterface interface",
     "type": "library",
+    "keywords": ["pdo session handler", "pdo-session-handler", "session", "handler"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -11,9 +12,13 @@
     "authors": [
         {
             "name": "MicheleDeF",
-            "email": "defalco_michele@libero.it"
+            "email": "defalco_michele@libero.it",
+            "homepage": "https://github.com/MicheleDeF",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.2"
+    }
 }
