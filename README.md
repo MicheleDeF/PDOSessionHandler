@@ -21,6 +21,7 @@ PRIMARY KEY (`id`,`name`) ) ENGINE = INNODB;
 
 To use the PDOSessionHandler session handler it is necessary to use the session_set_save_handler() function which accepts as an input parameter a class that implements the SessionHandlerInterface interface, so in our case we will proceed as follows
 
+## Quick Start 
 ```sh
 <?php
 
