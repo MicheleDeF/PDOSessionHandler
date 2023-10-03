@@ -1,5 +1,5 @@
 # PDOSessionHandler
-Store data in a database using PDO and the SessionHandlerInterface interface
+Store session data in a database using PDO and the SessionHandlerInterface interface
 
 ## Install via Composer
 ```sh
